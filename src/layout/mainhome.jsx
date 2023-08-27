@@ -4,10 +4,12 @@ import Search from "../widgets/search";
 import Partners from "../widgets/partners";
 import Advantages from "../widgets/advantages";
 import Dashboard from "../widgets/dashboard";
+import Navbar from "../widgets/navbar";
 
 function MainHome() {
     return (
         <>
+        <Navbar />
             <Dashboard />
             <Advantages />
             <Partners />
