@@ -2,9 +2,10 @@ import Sentence from "../components/sub_title"
 import sofa from "../assets/images/sofa.png"
 import sofaresp from "../assets/images/sofaresp.png"
 
+
 const Dashboard = () => {
     return (
-        <div className="dashboard">
+        <div className="dashboard mt-40 lg:mt-[45px]">
             <div className="">
                 <div className="flex flex-col md:flex-row justify-end gap-16 items-center">
                     <div className="title-main  md:ml-[142px] md:w-[712px] flex flex-col gap-4 md:gap-12 text-center md:text-start tracking-wide md:tracking-normal px-4 md:px-0">
